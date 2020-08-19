@@ -14,6 +14,9 @@
 		5703A16D24ED9EBE00E4F1F4 /* CoreDataTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5703A16B24ED9EBE00E4F1F4 /* CoreDataTest.xcdatamodeld */; };
 		5703A16F24ED9EC000E4F1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5703A16E24ED9EC000E4F1F4 /* Assets.xcassets */; };
 		5703A17224ED9EC000E4F1F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5703A17024ED9EC000E4F1F4 /* LaunchScreen.storyboard */; };
+		5703A17A24ED9F6F00E4F1F4 /* DataBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5703A17924ED9F6F00E4F1F4 /* DataBaseController.swift */; };
+		5703A17D24EDA74700E4F1F4 /* CellDados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5703A17B24EDA74700E4F1F4 /* CellDados.swift */; };
+		5703A17E24EDA74700E4F1F4 /* CellDados.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5703A17C24EDA74700E4F1F4 /* CellDados.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		5703A16E24ED9EC000E4F1F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5703A17124ED9EC000E4F1F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5703A17324ED9EC000E4F1F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5703A17924ED9F6F00E4F1F4 /* DataBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseController.swift; sourceTree = "<group>"; };
+		5703A17B24EDA74700E4F1F4 /* CellDados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDados.swift; sourceTree = "<group>"; };
+		5703A17C24EDA74700E4F1F4 /* CellDados.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellDados.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				5703A16224ED9EBE00E4F1F4 /* AppDelegate.swift */,
 				5703A16424ED9EBE00E4F1F4 /* SceneDelegate.swift */,
 				5703A16624ED9EBE00E4F1F4 /* ViewController.swift */,
+				5703A17B24EDA74700E4F1F4 /* CellDados.swift */,
+				5703A17C24EDA74700E4F1F4 /* CellDados.xib */,
+				5703A17924ED9F6F00E4F1F4 /* DataBaseController.swift */,
 				5703A16824ED9EBE00E4F1F4 /* Main.storyboard */,
 				5703A16E24ED9EC000E4F1F4 /* Assets.xcassets */,
 				5703A17024ED9EC000E4F1F4 /* LaunchScreen.storyboard */,
@@ -129,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5703A17224ED9EC000E4F1F4 /* LaunchScreen.storyboard in Resources */,
+				5703A17E24EDA74700E4F1F4 /* CellDados.xib in Resources */,
 				5703A16F24ED9EC000E4F1F4 /* Assets.xcassets in Resources */,
 				5703A16A24ED9EBE00E4F1F4 /* Main.storyboard in Resources */,
 			);
@@ -141,10 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5703A17A24ED9F6F00E4F1F4 /* DataBaseController.swift in Sources */,
 				5703A16D24ED9EBE00E4F1F4 /* CoreDataTest.xcdatamodeld in Sources */,
 				5703A16724ED9EBE00E4F1F4 /* ViewController.swift in Sources */,
 				5703A16324ED9EBE00E4F1F4 /* AppDelegate.swift in Sources */,
 				5703A16524ED9EBE00E4F1F4 /* SceneDelegate.swift in Sources */,
+				5703A17D24EDA74700E4F1F4 /* CellDados.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
